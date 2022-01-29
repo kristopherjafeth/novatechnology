@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/novatechnology/static/css/main.2279daee.css",
+    "main.js": "/novatechnology/static/js/main.e0535471.js",
+    "static/media/paginaweb.svg": "/novatechnology/static/media/paginaweb.da667fb3d0bb677167802830638595bc.svg",
+    "static/media/logo.svg": "/novatechnology/static/media/logo.625dc89d2debf939a2ae1b24f9fb4a7b.svg",
+    "static/media/tienda.svg": "/novatechnology/static/media/tienda.9b56b7a42acd4e1d72ff908a9499f296.svg",
+    "static/media/identidad.svg": "/novatechnology/static/media/identidad.28b303665f1d058fb5117e92e764d6aa.svg",
+    "index.html": "/novatechnology/index.html",
+    "static/media/design.svg": "/novatechnology/static/media/design.d76e7c8f75ea5d8d92bcf7e131092787.svg",
+    "static/media/codigo.svg": "/novatechnology/static/media/codigo.be5e980e3f7d16e52090d07daa11f473.svg",
+    "static/media/facebook.svg": "/novatechnology/static/media/facebook.8bd7076bdab74e8fdeffd009e2b60ec8.svg",
+    "main.2279daee.css.map": "/novatechnology/static/css/main.2279daee.css.map",
+    "main.e0535471.js.map": "/novatechnology/static/js/main.e0535471.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2279daee.css",
+    "static/js/main.e0535471.js"
+  ]
+}
