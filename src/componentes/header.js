@@ -19,12 +19,25 @@ function Header() {
                 
                 </p>   
                 <div className='input-group mt-3 formulario'>       
-                        <input type="text" name="" id="" className='rounded-pill w-75 me-3  p-2 form-control' placeholder='    Ingresa tu correo' />        
-                <button className='input-group-button btn btn-style btn-outline'>Envíar</button>  
+                         <div>
+                         <a href="#precios"className='input-group-button btn btn-style btn-outline boton1'>Planes</a>
+
+                         </div>
+                         
+                                     
+                        
             </div>
             <div className='row'>
-            <a href="#precios"className='input-group-button btn btn-style btn-outline botondeplanes col-12'>Planes</a>
+                    <div className='col'>
+                    <a href="#precios"className='input-group-button btn btn-style btn-outline botondeplanes col-12'>Planes</a>
+
+                    </div>
+                    <div className='col'>
+                         <a href="/ingresar"className='input-group-button btn btn-style btn-outline botondeplanes2'>Ingresar</a>
+
+                         </div>
                        </div>
+                       
             </div>
                 <div className='col-12 col-lg-6 header-right-side d-flex            justify-content-center align-items-center'>
            <img src='./hero1.webp' alt='heroimg' className='img-fluid foto-inicio'/>

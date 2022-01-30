@@ -1,0 +1,22 @@
+
+.login,
+.image {
+  min-height: 100vh;
+}
+
+.bg-image {
+  background-image: url('https://bootstrapious.com/i/snippets/sn-page-split/bg.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+.container-fluid{
+    background-color: #f0f5fc;
+}
+.display-4{
+    font-weight: 700;
+}
+.logo{
+    margin-bottom: 50px;
+    height: 120px;
+    width: 200px;
+}

@@ -1,23 +1,20 @@
 import React from 'react';
-import Navbar from './componentes/navbar.js';
-import Header from './componentes/header.js';
-import Services from './componentes/services.js';
-import About from './componentes/About.js';
-import Services2 from './componentes/services2.js';
-import Contact from './componentes/contact.js';
-import Footer from './componentes/Footer';
-import Preciospaginaweb from './componentes/Preciospaginaweb.js';
-function App() {
-  return <>
+import Home from './Home.js';
+import Login from './pages/Login.js';
+import Dashboard from './pages/Dashboard.js';
+import { Route, Switch } from 'react-router-dom';
 
-            <Navbar />
-            <Header />
-            <Services />
-            <About />
-            <Services2 />
-            <Preciospaginaweb />
-            <Contact />
-            <Footer />
+const App = () =>{
+  return <>
+                    
+                   
+              <Switch>
+              <Route exact path="/" component={Home}></Route>
+              <Route  exact path="/ingresar" component={Login}></Route>
+              <Route  exact path="/dashboard" component={Dashboard}></Route>
+              </Switch>
+           
+            
   
   </>;
 }

@@ -1,9 +1,3 @@
-import identidad from '../images/identidad.svg';
-import tiendaonline from '../images/tienda.svg';
-import facebook from '../images/facebook.svg';
-import paginaweb from '../images/paginaweb.svg';
-import design from '../images/design.svg';
-import codigo from '../images/codigo.svg';
 const VentajasApi = [
     {
         id: 1,

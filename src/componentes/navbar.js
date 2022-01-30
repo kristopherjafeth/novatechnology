@@ -6,7 +6,7 @@ export const Navbar = () => {
   <section className='navbar-bg'>
   <nav class="navbar navbar-expand-lg navbar-light">
   <div class="container">
-      <a href='https://novatechca.com'>
+      <a href='/'>
       <img src={logo} alt="insertar SVG con la etiqueta image" className='logo'></img>
       </a>
   
@@ -33,8 +33,8 @@ export const Navbar = () => {
 
       </ul>
       <form class="d-flex">
-         <a  class="btn btn-outline btn-style" href='#contacto'>
-Contacto
+         <a  class="btn btn-outline btn-style" href='/ingresar'>
+Ingresar
       </a>
       </form>
     </div>

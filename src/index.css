@@ -458,9 +458,19 @@ height: auto;
   }
   .botondeplanes{
     display: flex;
-    left: auto;
+    left: 0rem;
     align-items: center;
     padding-left: 30px;
     margin-left: 10px;
   }
+  .botondeplanes2{
+    display: flex;
+    left: 9rem;
+    align-items: center;
+    padding-left: 30px;
+    margin-left: 10px;
+  }
+}
+.boton1{
+  left: auto;
 }
