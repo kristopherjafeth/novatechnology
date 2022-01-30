@@ -28,7 +28,7 @@ export const Navbar = () => {
           <a class="nav-link" href="#ventajas">Ventajas</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Planes de Pago</a>
+          <a class="nav-link" href="#precios">Planes de Pago</a>
         </li>
 
       </ul>

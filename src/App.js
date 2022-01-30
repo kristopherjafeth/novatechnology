@@ -6,6 +6,7 @@ import About from './componentes/About.js';
 import Services2 from './componentes/services2.js';
 import Contact from './componentes/contact.js';
 import Footer from './componentes/Footer';
+import Preciospaginaweb from './componentes/Preciospaginaweb.js';
 function App() {
   return <>
 
@@ -14,6 +15,7 @@ function App() {
             <Services />
             <About />
             <Services2 />
+            <Preciospaginaweb />
             <Contact />
             <Footer />
   

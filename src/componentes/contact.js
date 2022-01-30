@@ -9,7 +9,7 @@ function Contact() {
 
                   <div className='row'>
                             <div className='contact-leftside col-12 col-lg-5'>
-                            <img src="../contacto-min.png" className='contactomujer' alt="about" />
+                            <img src="../contacto-min.webp" className='contactomujer' alt="about" />
                                  
                                     
                                     

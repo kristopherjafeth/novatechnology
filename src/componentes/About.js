@@ -6,7 +6,7 @@ function About() {
   <section className='common-section our-services' id='agencia'>
       <div className='row'>
       <div className='col-12 col-lg-5 text-center'>
-          <img src="../hero-2.png" className='foto-hombre' alt="about" />
+          <img src="../hero-2.webp" className='foto-hombre' alt="about" />
       </div>
       {/*seccion derecha informacion */}
       <div className='col col-lg7 our-services-list'>

@@ -3,8 +3,7 @@ body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  
+  -moz-osx-font-smoothing: grayscale; 
 }
 
 code {
@@ -204,6 +203,7 @@ font-size: 10px
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   margin-right:10px;
+  padding-top: 10px;
 
 }
 .btn-style:hover{
@@ -326,4 +326,141 @@ height: auto;
 .footer a{
   text-decoration: none;
   color: #fff;
+}
+
+#precios {
+  justify-content: center;
+  text-align: center;
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.precio{
+  position: relative;
+}
+
+.dolar {
+  position: absolute;
+  left: -30px;
+  top:20px;
+  font-size: 20px;
+  color: #8a8a8a;
+}
+.dolar2 {
+  position: absolute;
+  left: 30px;
+  top:20px;
+  font-size: 20px;
+  color: #8a8a8a;
+}
+.dolar3 {
+  position: absolute;
+  left: -30px;
+  font-size: 20px;
+  color: #8a8a8a;
+  top:20px;
+}
+.numero {
+  font-size: 70px;
+  color: #007bf9;
+}
+
+.numero2{
+  font-size: 70px;
+    color: #06a369;
+}
+.numero3{
+  font-size: 70px;
+    color: #5502db;
+}
+.mes{
+  color: #8a8a8a;
+  font-size: 18px;
+}
+.tabla{
+  background-color: #fff;
+  padding: 40px;
+}
+
+.caracteristicas{
+  font-size: 18px;
+  color: #444444;
+}
+.tabla a{
+  background-color: #007bf9;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 22px;
+  margin-top: 20px;
+  display: inline-block;
+  border-radius: 1rem;
+}
+.tabla a:hover{
+  background-color: #2a4ca8;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 22px;
+  margin-top: 20px;
+  display: inline-block;
+  border-radius: 1rem;
+}
+#tabla2{
+  position: relative;
+  box-shadow: 1px 1px 12px #ccc;
+  border-radius: 40px;
+  background-color:#007bf9 ;
+  color: #fff;
+}
+.titulo{
+  font-weight: 600;
+}
+
+#tabla2 .caracteristicas{
+    font-size: 18px;
+    color: #ffffff;
+}
+
+#tabla2 .numero2{
+  color: #ffffff;
+}
+
+#tabla2 a{
+  background-color: #ffffff;
+  color: #001b64;
+  font-weight: 700;
+}
+
+#tabla2 a:hover{
+  background-color: #e4e4e4;
+  color: #001b64;
+  font-weight: 700;
+}
+
+#tabla2 .mes{
+  color: #ffffff;
+  font-weight: 700;
+}
+#tabla2 .dolar2{
+  color: #ffffff;
+  font-weight: 700;
+}
+.tituloservicio{
+  margin-top: 90px;
+}
+.botondeplanes{
+  display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .formulario{
+    display: none;
+  }
+  .botondeplanes{
+    display: flex;
+    left: auto;
+    align-items: center;
+    padding-left: 30px;
+    margin-left: 10px;
+  }
 }
