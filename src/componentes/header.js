@@ -13,8 +13,7 @@ function Header() {
                     Creamos largas relaciones con nuestros clientes, nos convertimos en su departamento de Marketing y logramos conseguir los objetivos marcados de cada organización.
                 
                 <br/>
-                <br/>
-                Ingresa tu correo para recibir promociones y noticias de tecnología.
+
 
                 
                 </p>   
