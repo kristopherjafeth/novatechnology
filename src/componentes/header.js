@@ -32,7 +32,7 @@ function Header() {
 
                     </div>
                     <div className='col'>
-                         <a href="/ingresar"className='input-group-button btn btn-style btn-outline botondeplanes2'>Ingresar</a>
+                         <a href="https://mi.novatechca.com/'"className='input-group-button btn btn-style btn-outline botondeplanes2'>Ingresar</a>
 
                          </div>
                        </div>

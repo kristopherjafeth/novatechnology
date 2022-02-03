@@ -34,7 +34,7 @@ export const Navbar = () => {
       </ul>
       <form class="d-flex">
          <a  class="btn btn-outline btn-style" href='https://mi.novatechca.com/'>
-Iniciar sesión
+Ingresar
       </a>
       </form>
     </div>
