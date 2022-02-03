@@ -1,8 +1,10 @@
 import React from 'react';
 import "./login.css"
 import logo from '../componentes/logo.svg';
+
 function Login() {
   return <div>
+      <div>
       <div class="container-fluid">
     <div class="row no-gutter">
 
@@ -18,22 +20,31 @@ function Login() {
                     
                         <div class="col-lg-10 col-xl-7 mx-auto">
                         <a href='./'>
-      <img src={logo} alt="logo" className='logo'></img>
-      </a>
+                        <img src={logo} alt="logo" className='logo'></img>
+                                                    </a>
                             <h3 class="display-4">Bienvenido!</h3>
                             <p class="text-muted mb-4">Te damos la bienvenida a nuestro sistema.</p>
-                            <form>
+                            <form >
                                 <div class="form-group mb-3">
-                                    <input id="inputEmail" type="email" placeholder="Ingresa tu correo" required="" autofocus="" class="form-control rounded-pill border-0 shadow-sm px-4"/>
+                                    <input  
+                                    type="email" name="correo" placeholder="Ingresa tu correo" 
+                                    class="form-control rounded-pill border-0 shadow-sm px-4"
+                                    
+                                    />
                                 </div>
                                 <div class="form-group mb-3">
-                                    <input id="inputPassword" type="password" placeholder="Ingresa tu Contraseña" required="" class="form-control rounded-pill border-0 shadow-sm px-4 text-primary"/>
+                                    <input type="password" name="clave"placeholder="Ingresa tu Contraseña" class="form-control rounded-pill border-0 shadow-sm px-4 text-primary"
+                                   
+                                    />
                                 </div>
                                 <div class="custom-control custom-checkbox mb-3">
                                     <input id="customCheck1" type="checkbox" checked class="custom-control-input"/>
                                     <label for="customCheck1" class="custom-control-label">Recordar Contraseña</label>
                                 </div>
-                                <button type="submit" class="btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm">Ingresar</button>
+                                <button 
+                                 
+
+                                 className="btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm">Ingresar</button>
                                 <div class="text-center d-flex justify-content-between mt-4"><p>Crea una cuenta <a href="./registro" class="font-italic text-muted"> 
                                         <u>Aquí</u></a></p></div>
                             </form>
@@ -47,6 +58,8 @@ function Login() {
     </div>
 </div>
   </div>;
+  </div>;
 }
 
 export default Login;
+

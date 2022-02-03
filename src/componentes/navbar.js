@@ -9,9 +9,9 @@ export const Navbar = () => {
       <a href='/'>
       <img src={logo} alt="insertar SVG con la etiqueta image" className='logo'></img>
       </a>
-  
 
-    
+
+
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon" onClick={()=>setShow(!show)}></span>
     </button>
@@ -28,13 +28,13 @@ export const Navbar = () => {
           <a class="nav-link" href="#ventajas">Ventajas</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#precios">Planes de Pago</a>
+          <a class="nav-link" href="#precios">Precios</a>
         </li>
 
       </ul>
       <form class="d-flex">
-         <a  class="btn btn-outline btn-style" href='/ingresar'>
-Ingresar
+         <a  class="btn btn-outline btn-style" href='https://mi.novatechca.com/'>
+Iniciar sesión
       </a>
       </form>
     </div>
@@ -42,8 +42,8 @@ Ingresar
 </nav>
 
   </section>
-  
+
   </>
-      
+
 };
 export default Navbar;

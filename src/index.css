@@ -452,7 +452,7 @@ height: auto;
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 912px) {
   .formulario{
     display: none;
   }
@@ -469,8 +469,33 @@ height: auto;
     align-items: center;
     padding-left: 30px;
     margin-left: 10px;
+    
+  }
+  .boton1{
+    left: auto;
   }
 }
-.boton1{
-  left: auto;
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid rgb(5, 36, 139);
+  border-color: rgb(1, 63, 179) transparent rgb(69, 100, 238) transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

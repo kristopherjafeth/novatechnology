@@ -4,8 +4,7 @@ function Dashboard() {
   return <div>
 
 Ysidro
-
-  </div>;
+Ysidro  </div>;
 }
 
 export default Dashboard;
