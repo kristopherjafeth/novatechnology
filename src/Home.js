@@ -16,7 +16,6 @@ function Home() {
             <Services />
             <About />
             <Services2 />
-            <Preciospaginaweb />
             <Contact />
             <Footer />
   

@@ -4,7 +4,7 @@ import facebook from '../images/facebook.svg';
 import paginaweb from '../images/paginaweb.svg';
 import design from '../images/design.svg';
 import codigo from '../images/codigo.svg';
-const ventajapi = [
+const Ventajaspaginaweb = [
     {
         id: 1,
         logo: <img src={paginaweb} className='iconosvg'></img>,
@@ -42,5 +42,4 @@ const ventajapi = [
         info: "Con nuestro servicio de diseño gráfico creativo creamos artes que se adapten a tus necesidades, fiel a tu estilo y que cumpla con tus objetivos.",
     },
 ];
-export default ventajapi;
-
+export default Ventajaspaginaweb;

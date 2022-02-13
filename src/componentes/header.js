@@ -7,7 +7,7 @@ function Header() {
         <div className='row'>
         <div className='col-12 col-lg-6 header-left-side d-flex justify-content-center flex-column align-items-start'>
                 <h1 className='display-3'>
-                        Creamos tu <br/> Página Web! <i class="em em-computer iconosvg2" aria-role="presentation" aria-label="PERSONAL COMPUTER"></i>
+                        Creamos tu <br/> Página Web! <i class="em em-computer iconosvg2"></i>
                 </h1>
                 <p className='main-hero-para'>
                     Creamos largas relaciones con nuestros clientes, nos convertimos en su departamento de Marketing y logramos conseguir los objetivos marcados de cada organización.
@@ -32,7 +32,7 @@ function Header() {
 
                     </div>
                     <div className='col'>
-                         <a href="https://mi.novatechca.com/'"className='input-group-button btn btn-style btn-outline botondeplanes2'>Ingresar</a>
+                         <a href="http://mi.novatechca.com/clientarea.php'"className='input-group-button btn btn-style btn-outline botondeplanes2'>Ingresar</a>
 
                          </div>
                        </div>
